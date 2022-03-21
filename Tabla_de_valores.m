@@ -46,7 +46,7 @@ y = (m + Em) * x + (n +En);
 #plot(x, xi,"-;xi;" , x, yi, "-;yi;", x, xiyi, "-;xiyi;", x, xi2,"-;xixi;", x, yi2, "-;yiyi;", x, nmxy, "-;nmxy;", x, y, "-;Recta;")
 #plot(x, xi, "-;XI;", 'linewidth', 10,)
 
-plot(y)
+plot(x, yi, "*  ", 'linewidth', 100, x, y, "-;Recta Resultante;", 'linewidth', 2)
 
 #plot(x, xi,"-;xi;" ,'linewidth', 10)
  #plotyy(x, yi, "-;yi;",'linewidth', 10)
