@@ -40,13 +40,13 @@ XX = sum(nmxy)
 Em = sqrt((N / (N * Sxx - Sx * Sx)) * ((XX) / (N - 2)))
 En = sqrt( (Sxx / (N * Sxx - Sx * Sx)) * (XX) / (N - 2) )
 y = (m + Em) * x + (n +En);
-
+i = (m - Em) * x + (n -En);
 
 
 #plot(x, xi,"-;xi;" , x, yi, "-;yi;", x, xiyi, "-;xiyi;", x, xi2,"-;xixi;", x, yi2, "-;yiyi;", x, nmxy, "-;nmxy;", x, y, "-;Recta;")
 #plot(x, xi, "-;XI;", 'linewidth', 10,)
 
-plot(x, yi, "*  ", 'linewidth', 100, x, y, "-;Recta Resultante;", 'linewidth', 2)
+plot(x, yi, "*  ", 'linewidth', 100, x, y, "-;Recta Resultante positiva;", 'linewidth', 2, x, i, 'linewidth', 2, "-;Recta resultante negativa;")
 
 #plot(x, xi,"-;xi;" ,'linewidth', 10)
  #plotyy(x, yi, "-;yi;",'linewidth', 10)
@@ -54,12 +54,3 @@ plot(x, yi, "*  ", 'linewidth', 100, x, y, "-;Recta Resultante;", 'linewidth', 2
  #plotyy(x, xi2,"-;xixi;",'linewidth', 10)
  #plotyy(x, yi2, "-;yiyi;", 'linewidth', 10)
  #plotyy(x, nmxy, "-;nmxy;", 'linewidth', 10)
-
-
-
-
-
-
-
-
-#y = (m + Em) * x + (n +En)
