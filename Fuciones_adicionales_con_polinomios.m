@@ -13,3 +13,5 @@ fxeval = polyval(fx, 3)
 # d)
 Fxeval = polyval(fx, 2)
 Gxeval = polyval(gx, 2)
+
+Fxeval * Gxeval
