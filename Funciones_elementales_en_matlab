@@ -1,6 +1,7 @@
 %{ Funciones trigonometricas
 
-Todas las funciones 
+Todas las funciones reciben un argumento en radianes
+
 Calcula el seno de el argumento
 sin(x)
 
