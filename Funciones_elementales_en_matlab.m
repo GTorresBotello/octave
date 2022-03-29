@@ -33,7 +33,7 @@ t = 0:0.01:2*pi;
 y1 = sin(t);
 y2 = cos(t);
 
-plot(t, y1, t, y2, '--')
+##plot(t, y1, t, y2, '--')
 %{
 Funciones inversas
 
@@ -52,4 +52,22 @@ acsc(x)
 utilizar las funcioes trigonometricas para determinar
 el valor de los lados a y b del triangulo rectangulo
 siguiente
+      /|
+ b /  |a=5
+  /    |
+/30_|
+
 %}
+##b = 5/cos(30)
+##a = 5 * tan(30)
+
+a = 5 * tan(30 * pi / 180)
+b = 5/ cos(3 * pi / 180)
+
+
+
+
+
+
+
+
