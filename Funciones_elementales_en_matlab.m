@@ -1,4 +1,5 @@
-%{ Funciones trigonometricas
+%{ 
+Funciones trigonometricas
 
 Todas las funciones reciben un argumento en radianes
 
@@ -26,14 +27,14 @@ y1 = sen(t)
 y2 = cos(t)
 desde t=0 hasta t= 2pi
 
-SOLUCION%}
+SOLUCION
+%}
 t = 0:0.01:2*pi;
 y1 = sin(t);
 y2 = cos(t);
 
-%{
 plot(t, y1, t, y2, '--')
-
+%{
 Funciones inversas
 
 Calcula el arcosenodel argumento
