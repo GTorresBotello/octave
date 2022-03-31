@@ -62,4 +62,50 @@ length(X)
 valor maximo de una funcion
 max(X)
 
+Calcula el promedio de los elementos de un arreglo
+mean(X)
+
+Encuentra la mediana de los elementos contenidos en un arreglo
+median(X)
+
+Encuentra el minimo valor de un arreglo y determina cual elemento
+min(X)
+Ejemplo:
+[elemento posicion]=min(A)
+
+Multiplica los valores en un arreglo ejemplo
+prod(X)
+
+Calcula numeros aleatorios
+rand()
+
+Convierte la entrada en una represenacion fraccional
+rats()
+ejemplo:
+rats(0.5) = 1/2
+
+Determina las dimensiones de una matriz
+size(X)
+
+Determina la desviacion estandar en los contenidos de un arreglo
+std(X)
+
+Suma los contenidos de un arreglo
+sum(X)
+
+Calcula la varianza de los elementos de un arreglo
+var(X)
+
+Ejemplo
+utilizando las funciones de numeros complejos definidas en matlab
+(octave) encontrar la impedacia equivalente en las terminales
+
+
 %}
+
+Z1 = 1 + 2i
+Z2 = 2 + 3i
+Z3 = 4 + 2i
+Zt = Z1 + Z2 + Z3
+
+disp("\n")
