@@ -109,3 +109,55 @@ Z3 = 4 + 2i
 Zt = Z1 + Z2 + Z3
 
 disp("\n")
+
+%{
+EJEMPLO 2 
+utilizando las funciones de numeros complejos definidas por matlab 
+encontrar la suma de cuatro vectores que se muestran en la tabla siguiente
+
+|
+|
+|F3= 10N 90*
+|    /F2=8N 45*
+|  /            F1= 10N 0*
+|/___________________
+%}
+
+Fx= [ 10 * cos((0)); 
+           8 * cos((45));
+          10 * cos((90))]
+          
+Fy= [ 10 * sin((0)); 
+           8 * sin((45)); 
+         10 * sin((90))]
+
+Fxr = sum(Fx)
+Fyr = sum(Fy)
+Angulo = atan(Fyr / Fxr)
+
+Magnitud = sqrt((Fxr^2) + (Fyr^2) )
+
+%{
+Redondea hacia el emento mas cercano a cero
+fix(X)
+
+Redondea hacia el elmento mas cercano al infinito negativo
+floor(X)
+
+Redondea hacia el elmento mas cercano al infinito positivo
+ceil(X)
+
+Redondea hacia el elemento mas cercano a un valor entero
+round(X)
+
+Regresa el residuo de la division de sus argumentos
+rem(X)
+
+Regresa el signo de la cantidad que se ingresa como argumento
+sign(x)
+%}
+
+
+
+
+
